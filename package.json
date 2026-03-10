@@ -1,0 +1,35 @@
+{
+  "name": "smart-properties-compiler",
+  "version": "1.0.2",
+  "description": "Smart Properties Compiler",
+  "main": "dist/SmartPropertiesCompiler.js",
+  "types": "dist/SmartPropertiesCompiler.d.ts",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://edsoncastillo@bitbucket.org/smart-properties/smart-properties-test.git"
+  },
+  "keywords": [
+    "smart",
+    "properties",
+    "compiler",
+    "analyzer"
+  ],
+  "author": "ecastillo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/smart-properties/smart-properties-test/issues"
+  },
+  "homepage": "https://bitbucket.org/smart-properties/smart-properties-test#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "@types/node-fetch": "^2.6.2"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
